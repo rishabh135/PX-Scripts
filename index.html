@@ -1,319 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta content="chrome=1" http-equiv="X-UA-Compatible">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>PX Scripts by PXgamer</title>
-    <link href="stylesheets/styles.css?v=1.0.1" rel="stylesheet">
-    <link href="stylesheets/github-light.css" rel="stylesheet">
-    <script src="javascripts/scale.fix.js">
-    </script>
-    <meta content="width=device-width, initial-scale=1, user-scalable=no" name=
-    "viewport">
-</head>
-<body>
+
+    <link rel="stylesheet" href="stylesheets/styles.css?v=1.0.1">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
     <div class="wrapper">
-        <header>
-            <h1 class="header">PX Scripts</h1>
-            <p class="header">PXgamer's Script Repo</p>
-            <ul>
-                <li class="download">
-                    <a class="buttons" href=
-                    "https://github.com/PXgamer/PX-Scripts/zipball/master">Download
-                    ZIP</a>
-                </li>
-                <li class="download">
-                    <a class="buttons" href=
-                    "https://github.com/PXgamer/PX-Scripts/tarball/master">Download
-                    TAR</a>
-                </li>
-                <li>
-                    <a class="buttons github" href=
-                    "https://github.com/PXgamer/PX-Scripts">View On GitHub</a>
-                </li>
-                <li>
-                    <a class="buttons pximg" href=
-                    "https://pximg.xyz/u/pxgamer">PXIMG Profile</a>
-                </li>
-                <li>
-                    <a class="buttons kat" href=
-                    "https://kat.cr/user/PXgamer/">Kickass Torrents</a>
-                </li>
-            </ul>
-            <p class="header">This project is maintained by <a class=
-            "header name" href="https://github.com/PXgamer">PXgamer</a></p>
-        </header>
-        <section>
-            <h1><a aria-hidden="true" class="anchor" href="#px-scripts" id=
-            "user-content-px-scripts"><svg class="octicon octicon-link" height=
-            "16" version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> PX-Scripts</h1>
-            <p>PX-Scripts is just a simple repo of any scripts I make for
-            <a href=
-            "https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a>
-            / <a href=
-            "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">
-            Tampermonkey</a> .</p>
-            <p>All before 2016 are designed with <a href=
-            "https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a>
-            for Firefox.<br>
-            Any after that are created with <a href=
-            "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">
-            Tampermonkey</a> for Chrome.</p>
-            <p>Most are for <a href="https://kat.cr/">KAT.cr</a> (Kickass
-            Torrents) - Some will not work as they are for advanced users.<br>
-            Others are just random from when I'm bored.<br>
-            And soon I will be adding some for <a href=
-            "https://pximg.xyz/">PXIMG</a> .</p>
-            <p><a href=
-            "https://camo.githubusercontent.com/e3a4869cf8be70e08f8a816c6a039ef2d3f271ed/68747470733a2f2f7078696d672e78797a2f696d616765732f64616361353036653366636166353036303139643833613162663538336262352e706e67"
-            target="_blank"><img alt="banner image" data-canonical-src=
-            "https://pximg.xyz/images/daca506e3fcaf506019d83a1bf583bb5.png"
-            src="https://camo.githubusercontent.com/e3a4869cf8be70e08f8a816c6a039ef2d3f271ed/68747470733a2f2f7078696d672e78797a2f696d616765732f64616361353036653366636166353036303139643833613162663538336262352e706e67"
-            style="max-width:100%;"></a></p>
-            <p>So, I write a lot of userscripts for doing different things
-            around the site.</p>
-            <p>I usually go through the <a href=
-            "https://kat.cr/ideabox/">ideabox</a> and look for any things I can
-            make. But I thought it'd be cool to get some feedback and some
-            ideas for anything you'd like me to write.</p>
-            <p>To use the scripts, you'll need to install either <a href=
-            "https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey
-            (Firefox)</a> or <a href=
-            "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">
-            Tampermonkey (Chrome)</a> . I haven't tested these with <a href=
-            "https://addons.opera.com/en/extensions/details/violent-monkey">Violentmonkey</a>
-            , but feel free to give them a try.</p>
-            <p><em>If you have an issue with any of these scripts, either
-            <a href="https://kat.cr/messenger/create/PXgamer/">PM me on KAT</a>
-            or open an issue <a href=
-            "https://github.com/PXgamer/PX-Scripts/issues">here</a> .</em></p>
-            <h1><a aria-hidden="true" class="anchor" href="#global-scripts" id=
-            "user-content-global-scripts"></a>Global Scripts</h1>
-            <h2><a aria-hidden="true" class="anchor" href="#libraries" id=
-            "user-content-libraries"><svg class="octicon octicon-link" height=
-            "16" version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> Libraries:</h2>
-            <p><a href="https://greasyfork.org/en/scripts/19894">Console
-            Tools</a> [Returns Func Values]</p>
-            <h1><a aria-hidden="true" class="anchor" href=
-            "#kickass-torrents-scripts" id=
-            "user-content-kickass-torrents-scripts"><svg class=
-            "octicon octicon-link" height="16" version="1.1" viewbox=
-            "0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> Kickass Torrents Scripts</h1>
-            <h2><a aria-hidden="true" class="anchor" href="#libraries-1" id=
-            "user-content-libraries-1"><svg class="octicon octicon-link"
-            height="16" version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> Libraries:</h2>
-            <p><a href="https://greasyfork.org/en/scripts/19498">Get Blocked
-            Users</a> [Returns Array]<br>
-            <a href="https://greasyfork.org/en/scripts/19500">Get CSRF
-            Token</a> [Returns String]<br>
-            <a href="https://greasyfork.org/en/scripts/19538">Get DMCA'd
-            Torrents</a> [Returns Object]<br>
-            <a href="https://greasyfork.org/en/scripts/19524">Get Online
-            Users</a> [Returns Array]<br>
-            <a href="https://greasyfork.org/en/scripts/19628">Get Online Users
-            By ACL</a> [Returns Array]<br>
-            <a href="https://greasyfork.org/en/scripts/19536">Get Total
-            Downloads Count</a> [Returns String]<br>
-            <a href="https://greasyfork.org/en/scripts/19550">Get User Hash</a>
-            [Returns String]</p>
-            <h2><a aria-hidden="true" class="anchor" href=
-            "#user-scripts-for-general-use" id=
-            "user-content-user-scripts-for-general-use"><svg class=
-            "octicon octicon-link" height="16" version="1.1" viewbox=
-            "0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> User Scripts for General Use:</h2>
-            <h3><a aria-hidden="true" class="anchor" href="#notification" id=
-            "user-content-notification"><svg class="octicon octicon-link"
-            height="16" version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> Notification</h3>
-            <p><a href="https://greasyfork.org/en/scripts/19625">Custom Message
-            Tones</a><br>
-            <a href="https://greasyfork.org/en/scripts/10956">Message Notifier
-            (Flashes)</a><br>
-            <a href="https://greasyfork.org/en/scripts/19634">New Cheevos
-            Notification</a></p>
-            <h3><a aria-hidden="true" class="anchor" href="#profile" id=
-            "user-content-profile"><svg class="octicon octicon-link" height=
-            "16" version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> Profile</h3>
-            <p><a href="https://greasyfork.org/en/scripts/19462">Achievements
-            Filter</a><br>
-            <a href="https://greasyfork.org/en/scripts/19464">Block Users from
-            Profile</a><br>
-            <a href="https://greasyfork.org/en/scripts/19516">Block Users from
-            Profile & Posts</a><br>
-            <a href="https://greasyfork.org/en/scripts/19535">Extra Cheevos
-            (custom ones)</a><br>
-            <a href="https://greasyfork.org/en/scripts/19595">Pages Browsing
-            for Wall</a><br>
-            <a href="https://greasyfork.org/en/scripts/19547">Signature Hide on
-            Profiles</a><br>
-            <a href="https://greasyfork.org/en/scripts/19585">Tabbed Cheevos
-            Page</a><br>
-            <a href="https://greasyfork.org/en/scripts/20237">User RSS on
-            Profile</a></p>
-            <h3><a aria-hidden="true" class="anchor" href="#torrent" id=
-            "user-content-torrent"><svg class="octicon octicon-link" height=
-            "16" version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> Torrent</h3>
-            <p><a href="https://greasyfork.org/en/scripts/7718">Anti-DMCA
-            Script</a><br>
-            <a href="https://greasyfork.org/en/scripts/9856">Auto-Edit using
-            IMDB for Uploads</a><br>
-            <a href="https://greasyfork.org/en/scripts/19742">Comment
-            Filter</a><br>
-            <a href="https://greasyfork.org/en/scripts/10202">Create a summary
-            from an IMDB page</a><br>
-            <a href="https://greasyfork.org/en/scripts/19787">Download All
-            Torrents or Magnets</a><br>
-            <a href="https://greasyfork.org/en/scripts/19530">Edit Torrent
-            Button (not on sidebar)</a><br>
-            <a href="https://greasyfork.org/en/scripts/19577">Filter User
-            Uploads by Type</a><br>
-            <a href="https://greasyfork.org/en/scripts/19715">Filter Uploads by
-            UL Status</a><br>
-            <a href="https://greasyfork.org/en/scripts/20987">Friend Likes
-            Remover</a><br>
-            <a href="https://greasyfork.org/en/scripts/20220">Grab All Uploads
-            Info</a><br>
-            <a href="https://greasyfork.org/en/scripts/19828">KatTrak</a><br>
-            <a href="https://greasyfork.org/en/scripts/9772">Sort Torrents
-            Alphabetically</a><br>
-            <a href="https://greasyfork.org/en/scripts/19572">Sort Uploads
-            Alphabetically</a><br>
-            <a href="https://greasyfork.org/en/scripts/9848">User Uploads List
-            from a Torrent</a><br>
-            <a href="https://greasyfork.org/en/scripts/19527">User Uploads
-            Search</a><br>
-            <a href="https://greasyfork.org/en/scripts/9751">YIFY Subs/Addic7ed
-            Subtitles for Films and TV Shows</a></p>
-            <h3><a aria-hidden="true" class="anchor" href="#forum" id=
-            "user-content-forum"><svg class="octicon octicon-link" height="16"
-            version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> Forum</h3>
-            <p><a href="https://greasyfork.org/en/scripts/19587">Add Bookmarks
-            from Browse Pages</a><br>
-            <a href="https://greasyfork.org/en/scripts/18892">Add Custom
-            Forums</a><br>
-            <a href="https://greasyfork.org/en/scripts/19978">Bring Back [Shift
-            + Enter]</a><br>
-            <a href="https://greasyfork.org/en/scripts/19568">Custom Key
-            Commands</a><br>
-            <a href="https://greasyfork.org/en/scripts/9966">Draggable
-            Sidebar</a><br>
-            <a href="https://greasyfork.org/en/scripts/19630">Hide OP's
-            Post</a><br>
-            <a href="https://greasyfork.org/en/scripts/21325">Hide Stickied
-            Threads</a><br>
-            <a href="https://greasyfork.org/en/scripts/9821">More
-            Smileys</a><br>
-            <a href="https://greasyfork.org/en/scripts/19607">Report Thread
-            Spammers</a><br>
-            <a href="https://greasyfork.org/en/scripts/20442">Sidebar
-            [Horizontal]</a><br>
-            <a href="https://greasyfork.org/en/scripts/9808">Special Occasions
-            Headers</a><br>
-            <a href="https://greasyfork.org/en/scripts/19751">Thread Post
-            Drafts</a><br>
-            <a href="https://greasyfork.org/en/scripts/19647">User Info
-            Popover</a></p>
-            <h3><a aria-hidden="true" class="anchor" href="#faq" id=
-            "user-content-faq"><svg class="octicon octicon-link" height="16"
-            version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> FAQ</h3>
-            <p><a href="https://greasyfork.org/en/scripts/20631">FAQ Search
-            Language Filter</a></p>
-            <h3><a aria-hidden="true" class="anchor" href="#images" id=
-            "user-content-images"><svg class="octicon octicon-link" height="16"
-            version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> Images</h3>
-            <p><a href="https://greasyfork.org/en/scripts/19983">Avvy
-            Pirate</a><br>
-            <a href="https://greasyfork.org/en/scripts/19816">Image
-            Favourites</a></p>
-            <h3><a aria-hidden="true" class="anchor" href="#links" id=
-            "user-content-links"><svg class="octicon octicon-link" height="16"
-            version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> Links</h3>
-            <p><a href="https://greasyfork.org/en/scripts/20167">URL to
-            Direct</a></p>
-            <h3><a aria-hidden="true" class="anchor" href="#others" id=
-            "user-content-others"><svg class="octicon octicon-link" height="16"
-            version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> Others</h3>
-            <p><a href="https://greasyfork.org/en/scripts/21466">Block Users
-            from Blogroll</a><br>
-            <a href="https://greasyfork.org/en/scripts/19437">Deleted User
-            Check</a><br>
-            <a href="https://greasyfork.org/en/scripts/19521">Download History
-            Search</a><br>
-            <a href="https://greasyfork.org/en/scripts/19995">Filter
-            Ideabox</a><br>
-            <a href="https://greasyfork.org/en/scripts/19758">Filter Requests
-            by Category</a><br>
-            <a href="https://greasyfork.org/en/scripts/9884">Flags for
-            KAT</a><br>
-            <a href="https://greasyfork.org/en/scripts/21195">Hide Chat
-            Button</a><br>
-            <a href="https://greasyfork.org/en/scripts/20122">KAT Meta
-            Integration</a><br>
-            <a href="https://greasyfork.org/en/scripts/9875">GoodReads
-            Description Generator</a></p>
-            <h1><a aria-hidden="true" class="anchor" href="#greasyforkorg" id=
-            "user-content-greasyforkorg"><svg class="octicon octicon-link"
-            height="16" version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> GreasyFork.org</h1>
-            <p><a href="https://greasyfork.org/en/scripts/20343">GreasyFork
-            Total Scripts</a></p>
-            <h1><a aria-hidden="true" class="anchor" href="#duckduckgo" id=
-            "user-content-duckduckgo"><svg class="octicon octicon-link" height=
-            "16" version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> DuckDuckGo</h1>
-            <p><a href=
-            "https://greasyfork.org/en/scripts/20176">DuckDuckVader</a></p>
-            <h1><a aria-hidden="true" class="anchor" href="#the-pirate-bay" id=
-            "user-content-the-pirate-bay"><svg class="octicon octicon-link"
-            height="16" version="1.1" viewbox="0 0 16 16" width="16">
-            <path d=
-            "M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-            </path></svg></a> The Pirate Bay</h1>
-            <p><a href="https://greasyfork.org/en/scripts/19591">TPB Torrent
-            Downloads</a></p>
-        </section>
+      <header>
+        <h1 class="header">PX Scripts</h1>
+        <p class="header">PXgamer&#39;s Script Repo</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/PXgamer/PX-Scripts/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/PXgamer/PX-Scripts/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/PXgamer/PX-Scripts">View On GitHub</a></li>
+          <li><a class="buttons pximg" href="https://pximg.xyz/u/pxgamer">PXIMG Profile</a></li>
+          <li><a class="buttons kat" href="https://kat.cr/user/PXgamer/">Kickass Torrents</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/PXgamer">PXgamer</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="px-scripts" class="anchor" href="#px-scripts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PX-Scripts</h1>
+
+<p>PX-Scripts is just a simple repo of any scripts I make for <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a>/<a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey</a>.</p>
+
+<p>All before 2016 are designed with <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a> for Firefox.<br>
+Any after that are created with <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey</a> for Chrome.</p>
+
+<p>Most are for <a href="https://kat.cr/">KAT.cr</a> (Kickass Torrents) - Some will not work as they are for advanced users.<br>
+Others are just random from when I'm bored.<br>
+And soon I will be adding some for <a href="https://pximg.xyz/">PXIMG</a>.  </p>
+
+<p><img src="https://pximg.xyz/images/daca506e3fcaf506019d83a1bf583bb5.png" alt="banner image"></p>
+
+<p>So, I write a lot of userscripts for doing different things around the site.</p>
+
+<p>I usually go through the <a href="https://kat.cr/ideabox/">ideabox</a> and look for any things I can make. But I thought it'd be cool to get some feedback and some ideas for anything you'd like me to write.</p>
+
+<p>To use the scripts, you'll need to install either <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey (Firefox)</a> or <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey (Chrome)</a>. I haven't tested these with <a href="https://addons.opera.com/en/extensions/details/violent-monkey">Violentmonkey</a>, but feel free to give them a try.</p>
+
+<p><em>If you have an issue with any of these scripts, either <a href="https://kat.cr/messenger/create/PXgamer/">PM me on KAT</a> or open an issue <a href="https://github.com/PXgamer/PX-Scripts/issues">here</a>.</em></p>
+
+<h2>
+<a id="libraries" class="anchor" href="#libraries" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Libraries:</h2>
+
+<p><a href="https://greasyfork.org/en/scripts/19894">Console Tools</a> [Returns Func Values]<br>
+<a href="https://greasyfork.org/en/scripts/19498">Get Blocked Users</a> [Returns Array]<br>
+<a href="https://greasyfork.org/en/scripts/19500">Get CSRF Token</a> [Returns String]<br>
+<a href="https://greasyfork.org/en/scripts/19538">Get DMCA'd Torrents</a> [Returns Object]<br>
+<a href="https://greasyfork.org/en/scripts/19524">Get Online Users</a> [Returns Array]<br>
+<a href="https://greasyfork.org/en/scripts/19628">Get Online Users By ACL</a> [Returns Array]<br>
+<a href="https://greasyfork.org/en/scripts/19536">Get Total Downloads Count</a> [Returns String]<br>
+<a href="https://greasyfork.org/en/scripts/19550">Get User Hash</a> [Returns String]  </p>
+
+<h2>
+<a id="user-scripts-for-general-use" class="anchor" href="#user-scripts-for-general-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>User Scripts for General Use:</h2>
+
+<h3>
+<a id="notification" class="anchor" href="#notification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notification</h3>
+
+<p><a href="https://greasyfork.org/en/scripts/19625">Custom Message Tones</a><br>
+<a href="https://greasyfork.org/en/scripts/10956">Message Notifier (Flashes)</a><br>
+<a href="https://greasyfork.org/en/scripts/19634">New Cheevos Notification</a>  </p>
+
+<h3>
+<a id="profile" class="anchor" href="#profile" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Profile</h3>
+
+<p><a href="https://greasyfork.org/en/scripts/19462">Achievements Filter</a><br>
+<a href="https://greasyfork.org/en/scripts/19464">Block Users from Profile</a><br>
+<a href="https://greasyfork.org/en/scripts/19516">Block Users from Profile &amp; Posts</a><br>
+<a href="https://greasyfork.org/en/scripts/19535">Extra Cheevos (custom ones)</a><br>
+<a href="https://greasyfork.org/en/scripts/19595">Pages Browsing for Wall</a><br>
+<a href="https://greasyfork.org/en/scripts/19547">Signature Hide on Profiles</a><br>
+<a href="https://greasyfork.org/en/scripts/19585">Tabbed Cheevos Page</a><br>
+<a href="https://greasyfork.org/en/scripts/20237">User RSS on Profile</a>  </p>
+
+<h3>
+<a id="torrent" class="anchor" href="#torrent" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Torrent</h3>
+
+<p><a href="https://greasyfork.org/en/scripts/7718">Anti-DMCA Script</a><br>
+<a href="https://greasyfork.org/en/scripts/9856">Auto-Edit using IMDB for Uploads</a><br>
+<a href="https://greasyfork.org/en/scripts/19742">Comment Filter</a><br>
+<a href="https://greasyfork.org/en/scripts/10202">Create a summary from an IMDB page</a><br>
+<a href="https://greasyfork.org/en/scripts/19787">Download All Torrents or Magnets</a><br>
+<a href="https://greasyfork.org/en/scripts/19530">Edit Torrent Button (not on sidebar)</a><br>
+<a href="https://greasyfork.org/en/scripts/19577">Filter User Uploads by Type</a><br>
+<a href="https://greasyfork.org/en/scripts/19715">Filter Uploads by UL Status</a><br>
+<a href="https://greasyfork.org/en/scripts/20987">Friend Likes Remover</a><br>
+<a href="https://greasyfork.org/en/scripts/20220">Grab All Uploads Info</a><br>
+<a href="https://greasyfork.org/en/scripts/19828">KatTrak</a><br>
+<a href="https://greasyfork.org/en/scripts/9772">Sort Torrents Alphabetically</a><br>
+<a href="https://greasyfork.org/en/scripts/19572">Sort Uploads Alphabetically</a><br>
+<a href="https://greasyfork.org/en/scripts/9848">User Uploads List from a Torrent</a><br>
+<a href="https://greasyfork.org/en/scripts/19527">User Uploads Search</a><br>
+<a href="https://greasyfork.org/en/scripts/9751">YIFY Subs/Addic7ed Subtitles for Films and TV Shows</a>  </p>
+
+<h3>
+<a id="forum" class="anchor" href="#forum" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Forum</h3>
+
+<p><a href="https://greasyfork.org/en/scripts/19587">Add Bookmarks from Browse Pages</a><br>
+<a href="https://greasyfork.org/en/scripts/18892">Add Custom Forums</a><br>
+<a href="https://greasyfork.org/en/scripts/19978">Bring Back [Shift + Enter]</a><br>
+<a href="https://greasyfork.org/en/scripts/19568">Custom Key Commands</a><br>
+<a href="https://greasyfork.org/en/scripts/9966">Draggable Sidebar</a><br>
+<a href="https://greasyfork.org/en/scripts/19630">Hide OP's Post</a><br>
+<a href="https://greasyfork.org/en/scripts/21325">Hide Stickied Threads</a><br>
+<a href="https://greasyfork.org/en/scripts/9821">More Smileys</a><br>
+<a href="https://greasyfork.org/en/scripts/19607">Report Thread Spammers</a><br>
+<a href="https://greasyfork.org/en/scripts/20442">Sidebar [Horizontal]</a><br>
+<a href="https://greasyfork.org/en/scripts/9808">Special Occasions Headers</a><br>
+<a href="https://greasyfork.org/en/scripts/19751">Thread Post Drafts</a><br>
+<a href="https://greasyfork.org/en/scripts/19647">User Info Popover</a>  </p>
+
+<h3>
+<a id="faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h3>
+
+<p><a href="https://greasyfork.org/en/scripts/20631">FAQ Search Language Filter</a></p>
+
+<h3>
+<a id="images" class="anchor" href="#images" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Images</h3>
+
+<p><a href="https://greasyfork.org/en/scripts/19983">Avvy Pirate</a><br>
+<a href="https://greasyfork.org/en/scripts/19816">Image Favourites</a>  </p>
+
+<h3>
+<a id="links" class="anchor" href="#links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links</h3>
+
+<p><a href="https://greasyfork.org/en/scripts/20167">URL to Direct</a></p>
+
+<h3>
+<a id="others" class="anchor" href="#others" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Others</h3>
+
+<p><a href="https://greasyfork.org/en/scripts/21466">Block Users from Blogroll</a><br>
+<a href="https://greasyfork.org/en/scripts/19437">Deleted User Check</a><br>
+<a href="https://greasyfork.org/en/scripts/19521">Download History Search</a><br>
+<a href="https://greasyfork.org/en/scripts/19995">Filter Ideabox</a><br>
+<a href="https://greasyfork.org/en/scripts/19758">Filter Requests by Category</a><br>
+<a href="https://greasyfork.org/en/scripts/9884">Flags for KAT</a><br>
+<a href="https://greasyfork.org/en/scripts/21195">Hide Chat Button</a><br>
+<a href="https://greasyfork.org/en/scripts/20122">KAT Meta Integration</a><br>
+<a href="https://greasyfork.org/en/scripts/9875">GoodReads Description Generator</a>  </p>
+
+<h3>
+<a id="other-sites" class="anchor" href="#other-sites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other Sites:</h3>
+
+<p><a href="https://greasyfork.org/en/scripts/20176">DuckDuckVader</a><br>
+<a href="https://greasyfork.org/en/scripts/20343">GreasyFork Total Scripts</a><br>
+<a href="https://greasyfork.org/en/scripts/19591">TPB Torrent Downloads</a>  </p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
     </div>
-</body>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
 </html>
